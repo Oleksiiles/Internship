@@ -6,7 +6,6 @@ namespace InternshipTest.Institution.InterLink
     public class Internship
     {
         public string Name;
-        public int averageLevel;
         public List<Student> intershipStudent = new List<Student>();
 
         public Internship(string name)
@@ -14,37 +13,24 @@ namespace InternshipTest.Institution.InterLink
             Name = name;
 
         }
-          
-        public void setAverageLevel(University university)
+
+
+        public void enrollStudent(University university)
         {
-            int ollRating = 0;
-            foreach (var student in university.allStudent)
+            foreach (var student in university.allStudents)
             {
-                ollRating += student.Knowledge;
-            } 
-            averageLevel = ollRating / university.allStudent.Count;
-        }
-        public void enrollStudent()
-        {
-            foreach (var student in universityStudentList)
-            {
-                if (student.Knowledge > averageLevel)
+                if (student.Knowledge > university.averageLevel)
                 {
                     intershipStudent.Add(student);
                 }
             }
         }
-        public string setStudents()
+        public string getStudents()
         {
             string listDtudent = "";
-            foreach (var student in University.allStudent)
+            foreach (var student in intershipStudent)
             {
-                if (student.Knowledge > averageLevel)
-                {
-                    intershipStudent.Add(student);
-                    listDtudent += student.Name + "/n";
-
-                }
+                listDtudent += student.Name + "/n";
             }
             return listDtudent;
         }

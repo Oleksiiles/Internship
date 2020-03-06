@@ -8,3 +8,8 @@
 /home/intern/Downloads/InternshipTest Csharp/obj/Debug/netcoreapp2.1/internshiptest.AssemblyInfo.cs
 /home/intern/Downloads/InternshipTest Csharp/obj/Debug/netcoreapp2.1/internshiptest.dll
 /home/intern/Downloads/InternshipTest Csharp/obj/Debug/netcoreapp2.1/internshiptest.pdb
+/home/intern/Documents/Task2/InternshipTest Csharp/obj/Debug/netcoreapp2.1/internshiptest.csprojAssemblyReference.cache
+/home/intern/Documents/Task2/InternshipTest Csharp/obj/Debug/netcoreapp2.1/internshiptest.AssemblyInfoInputs.cache
+/home/intern/Documents/Task2/InternshipTest Csharp/obj/Debug/netcoreapp2.1/internshiptest.AssemblyInfo.cs
+/home/intern/Documents/Task2/InternshipTest Csharp/obj/Debug/netcoreapp2.1/internshiptest.dll
+/home/intern/Documents/Task2/InternshipTest Csharp/obj/Debug/netcoreapp2.1/internshiptest.pdb

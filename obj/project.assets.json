@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/intern/Downloads/InternshipTest Csharp/internshiptest.csproj",
+      "projectUniqueName": "/home/intern/Documents/Task2/InternshipTest Csharp/internshiptest.csproj",
       "projectName": "internshiptest",
-      "projectPath": "/home/intern/Downloads/InternshipTest Csharp/internshiptest.csproj",
+      "projectPath": "/home/intern/Documents/Task2/InternshipTest Csharp/internshiptest.csproj",
       "packagesPath": "/home/intern/.nuget/packages/",
-      "outputPath": "/home/intern/Downloads/InternshipTest Csharp/obj/",
+      "outputPath": "/home/intern/Documents/Task2/InternshipTest Csharp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

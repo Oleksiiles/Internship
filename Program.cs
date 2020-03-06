@@ -18,10 +18,10 @@ namespace InternshipTest
 
             Internship internship = new Internship("Interlink");
 
-            internship.setUniversity(university);
+            internship.enrollStudent(university);
 
             Console.WriteLine("List of internship's students:");
-            Console.WriteLine(internship.GetStudents());
+            Console.WriteLine(internship.getStudents());
         }
     }
 }
